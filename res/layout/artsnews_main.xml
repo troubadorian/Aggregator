@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/Logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/logo" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_news_bg" >
+
+            <ImageView
+                android:id="@+id/Logo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dip"
+                android:src="@drawable/header_news_bg_tile" >
+            </ImageView>
+        </LinearLayout>
+
+        <!-- start of navnewstopstories -->
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+                android:persistentDrawingCache="animation|scrolling" />
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+        </FrameLayout>
+        <!-- end of  navnewstopstories -->
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/Logo"
+        android:layout_marginBottom="37dip" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/MediaPlayer"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </FrameLayout>
+
+</RelativeLayout>

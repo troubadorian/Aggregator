@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<outertag text="General News">
+<innertag cbcId="98" type="rss" text="CBC News | Top Stories News" shorttitle="Top Stories" title="Top Stories News" xmlUrl="http://www.cbc.ca/m/rss/topstories.xml"/>
+<innertag cbcId="16" type="rss" text="CBC News | World News" shorttitle="World" title="World News" xmlUrl="http://www.cbc.ca/m/rss/world.xml"/>
+<innertag cbcId="15" type="rss" text="CBC News | Canadian News" shorttitle="Canada" title="Canadian News" xmlUrl="http://www.cbc.ca/m/rss/canada.xml"/>
+<innertag cbcId="80" type="rss" text="CBC News | Politics News" shorttitle="Politics" title="Politics News News" xmlUrl="http://www.cbc.ca/m/rss/politics.xml"/>
+<innertag cbcId="17" type="rss" text="CBC News | Business News" shorttitle="Business" title="Business News" xmlUrl="http://www.cbc.ca/m/rss/money.xml"/>
+<innertag cbcId="20" type="rss" text="CBC News | Health News" shorttitle="Health" title="Health News" xmlUrl="http://www.cbc.ca/m/rss/health.xml"/>
+<innertag cbcId="23" type="rss" text="CBC News | Arts News" shorttitle="A&E" title="Arts News" xmlUrl="http://www.cbc.ca/m/rss/arts.xml"/>
+<innertag cbcId="147" type="rss" text="CBC News | Technology & Science News" shorttitle="Tech & Sci" title="Technology & Science News" xmlUrl="http://www.cbc.ca/m/rss/technology.xml"/>
+<innertag cbcId="148" type="rss" text="CBC News | Consumer Life News" shorttitle="Consumer" title="Consumer Life News" xmlUrl="http://www.cbc.ca/m/rss/consumer.xml"/>
+<innertag>
+    <mytag>
+                        anddev.org rulez =)
+                </mytag>
+                <tagwithnumber thenumber="1337"/>
+				</innertag>
+</outertag>
+<outertag text="Sports News">
+<innertag cbcId="18" type="rss" text="CBC News | Sports News" shorttitle="Sports" title="Sports News" xmlUrl="http://www.cbc.ca/m/rss/sports.xml"/>
+<innertag cbcId="50" type="rss" text="CBC News | Football News" shorttitle="Football" title="Football News" xmlUrl="http://www.cbc.ca/m/rss/sports-football.xml"/>
+<innertag cbcId="82" type="rss" text="CBC News | Alpine Skiing News" shorttitle="Alpine Skiing" title="Alpine Skiing News" xmlUrl="http://www.cbc.ca/m/rss/sports-alpineskiing.xml"/>
+<innertag cbcId="81" type="rss" text="CBC News | Curling News" shorttitle="Curling" title="Curling News" xmlUrl="http://www.cbc.ca/m/rss/sports-curling.xml"/>
+<innertag cbcId="83" type="rss" text="CBC News | Figure Skating News" shorttitle="Figure Skating" title="Figure Skating" xmlUrl="http://www.cbc.ca/m/rss/sports-curling.xml"/>
+<innertag cbcId="24" type="rss" text="CBC News | Amateur Sports News" shorttitle="Amateur" title="Amateur Sports News" xmlUrl="http://www.cbc.ca/m/rss/sports-amateur.xml"/>
+<innertag cbcId="54" type="rss" text="CBC News | Baseball News" shorttitle="Baseball" title="Baseball News" xmlUrl="http://www.cbc.ca/m/rss/sports-baseball.xml"/>
+<innertag cbcId="96" type="rss" text="CBC News | Basketball News" shorttitle="Basketball" title="Basketball News" xmlUrl="http://www.cbc.ca/m/rss/sports-basketball.xml"/>
+<innertag cbcId="19" type="rss" text="CBC News | Hockey News" shorttitle="Hockey" title="Hockey News" xmlUrl="http://www.cbc.ca/m/rss/sports-hockey.xml"/>
+<innertag cbcId="149" type="rss" text="CBC News | Soccer News" shorttitle="Soccer" title="Soccer News" xmlUrl="http://www.cbc.ca/m/rss/sports-soccer.xml"/>
+</outertag>
+<outertag text="Arts News">
+<innertag cbcId="61" type="rss" text="CBC News | Books News" shorttitle="Books" title="Books News" xmlUrl="http://www.cbc.ca/m/rss/arts-books.xml"/>
+<innertag cbcId="62" type="rss" text="CBC News | Art & Design News" shorttitle="Arts & Design News" title="Arts & Design News" xmlUrl="http://www.cbc.ca/m/rss/arts-artdesign.xml"/>
+<innertag cbcId="63" type="rss" text="CBC News | Film News" shorttitle="Film" title="Film News" xmlUrl="http://www.cbc.ca/m/rss/arts-film.xml"/>
+<innertag cbcId="64" type="rss" text="CBC News | Media News" shorttitle="Media" title="Media News" xmlUrl="http://www.cbc.ca/m/rss/arts-media.xml"/>
+<innertag cbcId="65" type="rss" text="CBC News | Music News" shorttitle="Music" title="Music News" xmlUrl="http://www.cbc.ca/m/rss/arts-music.xml"/>
+<innertag cbcId="66" type="rss" text="CBC News | Theatre News" shorttitle="Theatre" title="Theatre News" xmlUrl="http://www.cbc.ca/m/rss/arts-theatre.xml"/>
+<innertag cbcId="67" type="rss" text="CBC News | TV News" shorttitle="TV" title="TV News" xmlUrl="http://www.cbc.ca/m/rss/arts-tv.xml"/>
+</outertag>
+<outertag text="Regional News">
+<innertag cbcId="28" type="rss" text="CBC News | British Columbia News" shorttitle="BC" title="British Columbia News" xmlUrl="http://www.cbc.ca/m/rss/canada-britishcolumbia.xml"/>
+<innertag cbcId="100" type="rss" text="CBC News | Calgary News" shorttitle="Calgary" title="Calgary News" xmlUrl="http://www.cbc.ca/m/rss/canada-calgary.xml"/>
+<innertag cbcId="99" type="rss" text="CBC News | Edmonton News" shorttitle="Edmonton" title="Edmonton News" xmlUrl="http://www.cbc.ca/m/rss/canada-edmonton.xml"/>
+<innertag cbcId="30" type="rss" text="CBC News | Saskatchewan News" shorttitle="Sask" title="Saskatchewan News" xmlUrl="http://www.cbc.ca/m/rss/canada-saskatchewan.xml"/>
+<innertag cbcId="29" type="rss" text="CBC News | Manitoba News" shorttitle="Manitoba" title="Manitoba News" xmlUrl="http://www.cbc.ca/m/rss/canada-manitoba.xml"/>
+<innertag cbcId="72" type="rss" text="CBC News | Thunder Bay News" shorttitle="Thunder Bay" title="Thunder Bay News" xmlUrl="http://www.cbc.ca/m/rss/canada.xml"/>
+<innertag cbcId="73" type="rss" text="CBC News | Sudbury News" shorttitle="Sudbury" title="Sudbury News" xmlUrl="http://www.cbc.ca/m/rss/canada.xml"/>
+<innertag cbcId="71" type="rss" text="CBC News | Windsor News" shorttitle="Windsor" title="Windsor News" xmlUrl="http://www.cbc.ca/m/rss/canada-windsor.xml"/>
+<innertag cbcId="25" type="rss" text="CBC News | Toronto News" shorttitle="Toronto" title="Toronto News" xmlUrl="http://www.cbc.ca/m/rss/canada-toronto.xml"/>
+<innertag cbcId="26" type="rss" text="CBC News | Ottawa News" shorttitle="Ottawa" title="Ottawa News" xmlUrl="http://www.cbc.ca/m/rss/canada-ottawa.xml"/>
+<innertag cbcId="27" type="rss" text="CBC News | Montreal News" shorttitle="Montreal" title="Montreal News" xmlUrl="http://www.cbc.ca/m/rss/canada-montreal.xml"/>
+<innertag cbcId="101" type="rss" text="CBC News | New Brunswick News" shorttitle="NB" title="New Brunswick News" xmlUrl="http://www.cbc.ca/m/rss/canada-newbrunswick.xml"/>
+<innertag cbcId="103" type="rss" text="CBC News | Prince Edward Island News" shorttitle="PEI" title="Prince Edward Island News" xmlUrl="http://www.cbc.ca/m/rss/canada-pei.xml"/>
+<innertag cbcId="102" type="rss" text="CBC News | Nova Scotia News" shorttitle="NS" title="Nova Scotia News" xmlUrl="http://www.cbc.ca/m/rss/canada-novascotia.xml"/>
+<innertag cbcId="104" type="rss" text="CBC News | Newfoundland & Labrador News" shorttitle="NL" title="Newfoundland & Labrador News" xmlUrl="http://www.cbc.ca/m/rss/canada-newfoundland.xml"/>
+<innertag cbcId="42" type="rss" text="CBC News | Northern News" shorttitle="North" title="Northern News" xmlUrl="http://www.cbc.ca/m/rss/canada-north.xml"/>
+</outertag>
+</body>
+</opml>

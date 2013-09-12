@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Base"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgblackstretched"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/navigmaske"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fandroid_news_logo_for_widget" />
+
+        <TextView
+            android:id="@+id/Month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/NewsScroller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/loading_text_news"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/NewsLinkScroller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/loading_text_news"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/WeekDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/NewsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="normal" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/prevnext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/prevarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="false"
+            android:background="@drawable/cbc_prevarrow_for_widget"
+            android:paddingTop="20dip" />
+
+        <Button
+            android:id="@+id/nextarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="bottom"
+            android:background="@drawable/cbc_nextarrow_for_widget"
+            android:paddingTop="20dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomnav"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cbcradio_ico_for_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="false"
+            android:background="@drawable/cbcradio_ico_for_widget"
+            android:paddingTop="20dip" />
+
+        <Button
+            android:id="@+id/cbcnews_ico_for_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="bottom"
+            android:background="@drawable/fandroid_ico_for_widget"
+            android:paddingLeft="20dip"
+            android:paddingTop="20dip" />
+
+        <Button
+            android:id="@+id/cbchockey_ico_for_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="bottom"
+            android:background="@drawable/cbchockey_ico_for_widget"
+            android:paddingLeft="20dip"
+            android:paddingTop="20dip" />
+
+        <Button
+            android:id="@+id/cbc_ico_for_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="bottom"
+            android:background="@drawable/cbc_ico_for_widget"
+            android:paddingLeft="20dip"
+            android:paddingTop="20dip" />
+    </LinearLayout>
+    <!--
+		<ImageButton android:id="@+id/configure"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:src="@drawable/configure" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+    -->
+
+</RelativeLayout> <!-- </LinearLayout> -->

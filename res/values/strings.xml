@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Droidster!</string>
+	<string name="app_name">Aggregator</string>
+	<string name="app_name_small">Aggregator</string>
+	<string-array name="countries_array">
+		<item>Bahrain</item>
+		<item>Bangladesh</item>
+		<item>Barbados</item>
+		<item>Belarus</item>
+		<item>Belgium</item>
+		<item>Belize</item>
+		<item>Benin</item>
+	</string-array>
+	<string name="news_header_text">News</string>
+	<string name="topstories_header_text">Top Stories</string>
+	<string name="retrieving_text">...downloading...</string>
+	<string name='loading_text_news'>...loading news feed...</string>
+    <string name='loading_text_links'>...loading links...</string>
+     
+</resources>
+
+
+   
